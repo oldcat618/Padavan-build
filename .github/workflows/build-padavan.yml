@@ -41,7 +41,7 @@ jobs:
         fi
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
-        mkdir -p /opt/images/
+        mkdir -p /opt/rt-n56u/images/
     - name: Build Firmware
       env:
         TNAME: MSG1500
